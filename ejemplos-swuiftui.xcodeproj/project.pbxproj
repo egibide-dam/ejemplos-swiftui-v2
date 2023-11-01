@@ -7,18 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F06606152AF2B8B50058DEE1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F06606142AF2B8B50058DEE1 /* .gitignore */; };
+		F06606172AF2B9070058DEE1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F06606162AF2B9070058DEE1 /* README.md */; };
 		F07AC0DE2AF2303200BD2B93 /* ejemplos_swuiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07AC0DD2AF2303200BD2B93 /* ejemplos_swuiftuiApp.swift */; };
 		F07AC0E02AF2303200BD2B93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07AC0DF2AF2303200BD2B93 /* ContentView.swift */; };
 		F07AC0E22AF2303400BD2B93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F07AC0E12AF2303400BD2B93 /* Assets.xcassets */; };
 		F07AC0E52AF2303400BD2B93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F07AC0E42AF2303400BD2B93 /* Preview Assets.xcassets */; };
+		F07AC0F52AF2AF2F00BD2B93 /* EjemploPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07AC0EC2AF2AF2F00BD2B93 /* EjemploPicker.swift */; };
+		F07AC0F62AF2AF2F00BD2B93 /* EjemploSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07AC0ED2AF2AF2F00BD2B93 /* EjemploSlider.swift */; };
+		F07AC0F72AF2AF2F00BD2B93 /* EjemploText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07AC0EE2AF2AF2F00BD2B93 /* EjemploText.swift */; };
+		F07AC0F82AF2AF2F00BD2B93 /* EjemploButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07AC0EF2AF2AF2F00BD2B93 /* EjemploButton.swift */; };
+		F07AC0F92AF2AF2F00BD2B93 /* EjemploToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07AC0F02AF2AF2F00BD2B93 /* EjemploToggle.swift */; };
+		F07AC0FA2AF2AF2F00BD2B93 /* EjemploTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07AC0F12AF2AF2F00BD2B93 /* EjemploTextField.swift */; };
+		F07AC0FB2AF2AF2F00BD2B93 /* EjemploRotacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07AC0F22AF2AF2F00BD2B93 /* EjemploRotacion.swift */; };
+		F07AC0FC2AF2AF2F00BD2B93 /* Prueba.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07AC0F32AF2AF2F00BD2B93 /* Prueba.swift */; };
+		F07AC0FD2AF2AF2F00BD2B93 /* EjemploImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07AC0F42AF2AF2F00BD2B93 /* EjemploImage.swift */; };
+		F07AC0FF2AF2B0A500BD2B93 /* EjemploState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07AC0FE2AF2B0A500BD2B93 /* EjemploState.swift */; };
+		F07AC1012AF2B15500BD2B93 /* EjemploObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07AC1002AF2B15500BD2B93 /* EjemploObservableObject.swift */; };
+		F07AC1032AF2B2C400BD2B93 /* EjemploSubvista.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07AC1022AF2B2C400BD2B93 /* EjemploSubvista.swift */; };
+		F07AC1052AF2B41200BD2B93 /* EjemploCompartirEstadoVistas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07AC1042AF2B41200BD2B93 /* EjemploCompartirEstadoVistas.swift */; };
+		F07AC1072AF2B47E00BD2B93 /* Opciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07AC1062AF2B47E00BD2B93 /* Opciones.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F06606142AF2B8B50058DEE1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F06606162AF2B9070058DEE1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F07AC0DA2AF2303200BD2B93 /* ejemplos-swuiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ejemplos-swuiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F07AC0DD2AF2303200BD2B93 /* ejemplos_swuiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejemplos_swuiftuiApp.swift; sourceTree = "<group>"; };
 		F07AC0DF2AF2303200BD2B93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F07AC0E12AF2303400BD2B93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F07AC0E42AF2303400BD2B93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F07AC0EC2AF2AF2F00BD2B93 /* EjemploPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EjemploPicker.swift; sourceTree = "<group>"; };
+		F07AC0ED2AF2AF2F00BD2B93 /* EjemploSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EjemploSlider.swift; sourceTree = "<group>"; };
+		F07AC0EE2AF2AF2F00BD2B93 /* EjemploText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EjemploText.swift; sourceTree = "<group>"; };
+		F07AC0EF2AF2AF2F00BD2B93 /* EjemploButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EjemploButton.swift; sourceTree = "<group>"; };
+		F07AC0F02AF2AF2F00BD2B93 /* EjemploToggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EjemploToggle.swift; sourceTree = "<group>"; };
+		F07AC0F12AF2AF2F00BD2B93 /* EjemploTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EjemploTextField.swift; sourceTree = "<group>"; };
+		F07AC0F22AF2AF2F00BD2B93 /* EjemploRotacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EjemploRotacion.swift; sourceTree = "<group>"; };
+		F07AC0F32AF2AF2F00BD2B93 /* Prueba.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prueba.swift; sourceTree = "<group>"; };
+		F07AC0F42AF2AF2F00BD2B93 /* EjemploImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EjemploImage.swift; sourceTree = "<group>"; };
+		F07AC0FE2AF2B0A500BD2B93 /* EjemploState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploState.swift; sourceTree = "<group>"; };
+		F07AC1002AF2B15500BD2B93 /* EjemploObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploObservableObject.swift; sourceTree = "<group>"; };
+		F07AC1022AF2B2C400BD2B93 /* EjemploSubvista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploSubvista.swift; sourceTree = "<group>"; };
+		F07AC1042AF2B41200BD2B93 /* EjemploCompartirEstadoVistas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploCompartirEstadoVistas.swift; sourceTree = "<group>"; };
+		F07AC1062AF2B47E00BD2B93 /* Opciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opciones.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +67,8 @@
 		F07AC0D12AF2303200BD2B93 = {
 			isa = PBXGroup;
 			children = (
+				F06606162AF2B9070058DEE1 /* README.md */,
+				F06606142AF2B8B50058DEE1 /* .gitignore */,
 				F07AC0DC2AF2303200BD2B93 /* ejemplos-swuiftui */,
 				F07AC0DB2AF2303200BD2B93 /* Products */,
 			);
@@ -51,10 +85,12 @@
 		F07AC0DC2AF2303200BD2B93 /* ejemplos-swuiftui */ = {
 			isa = PBXGroup;
 			children = (
+				F07AC0EB2AF2AF0F00BD2B93 /* Ejemplos */,
 				F07AC0DD2AF2303200BD2B93 /* ejemplos_swuiftuiApp.swift */,
 				F07AC0DF2AF2303200BD2B93 /* ContentView.swift */,
 				F07AC0E12AF2303400BD2B93 /* Assets.xcassets */,
 				F07AC0E32AF2303400BD2B93 /* Preview Content */,
+				F07AC1062AF2B47E00BD2B93 /* Opciones.swift */,
 			);
 			path = "ejemplos-swuiftui";
 			sourceTree = "<group>";
@@ -65,6 +101,26 @@
 				F07AC0E42AF2303400BD2B93 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F07AC0EB2AF2AF0F00BD2B93 /* Ejemplos */ = {
+			isa = PBXGroup;
+			children = (
+				F07AC0EF2AF2AF2F00BD2B93 /* EjemploButton.swift */,
+				F07AC0F42AF2AF2F00BD2B93 /* EjemploImage.swift */,
+				F07AC0EC2AF2AF2F00BD2B93 /* EjemploPicker.swift */,
+				F07AC0F22AF2AF2F00BD2B93 /* EjemploRotacion.swift */,
+				F07AC0ED2AF2AF2F00BD2B93 /* EjemploSlider.swift */,
+				F07AC0EE2AF2AF2F00BD2B93 /* EjemploText.swift */,
+				F07AC0F12AF2AF2F00BD2B93 /* EjemploTextField.swift */,
+				F07AC0F02AF2AF2F00BD2B93 /* EjemploToggle.swift */,
+				F07AC0F32AF2AF2F00BD2B93 /* Prueba.swift */,
+				F07AC0FE2AF2B0A500BD2B93 /* EjemploState.swift */,
+				F07AC1002AF2B15500BD2B93 /* EjemploObservableObject.swift */,
+				F07AC1022AF2B2C400BD2B93 /* EjemploSubvista.swift */,
+				F07AC1042AF2B41200BD2B93 /* EjemploCompartirEstadoVistas.swift */,
+			);
+			path = Ejemplos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +182,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F07AC0E52AF2303400BD2B93 /* Preview Assets.xcassets in Resources */,
+				F06606152AF2B8B50058DEE1 /* .gitignore in Resources */,
+				F06606172AF2B9070058DEE1 /* README.md in Resources */,
 				F07AC0E22AF2303400BD2B93 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +195,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F07AC0FC2AF2AF2F00BD2B93 /* Prueba.swift in Sources */,
+				F07AC0F82AF2AF2F00BD2B93 /* EjemploButton.swift in Sources */,
 				F07AC0E02AF2303200BD2B93 /* ContentView.swift in Sources */,
+				F07AC0FD2AF2AF2F00BD2B93 /* EjemploImage.swift in Sources */,
+				F07AC0F62AF2AF2F00BD2B93 /* EjemploSlider.swift in Sources */,
+				F07AC0F52AF2AF2F00BD2B93 /* EjemploPicker.swift in Sources */,
+				F07AC0FF2AF2B0A500BD2B93 /* EjemploState.swift in Sources */,
+				F07AC1012AF2B15500BD2B93 /* EjemploObservableObject.swift in Sources */,
+				F07AC0F92AF2AF2F00BD2B93 /* EjemploToggle.swift in Sources */,
+				F07AC1072AF2B47E00BD2B93 /* Opciones.swift in Sources */,
+				F07AC0FB2AF2AF2F00BD2B93 /* EjemploRotacion.swift in Sources */,
 				F07AC0DE2AF2303200BD2B93 /* ejemplos_swuiftuiApp.swift in Sources */,
+				F07AC0FA2AF2AF2F00BD2B93 /* EjemploTextField.swift in Sources */,
+				F07AC1052AF2B41200BD2B93 /* EjemploCompartirEstadoVistas.swift in Sources */,
+				F07AC0F72AF2AF2F00BD2B93 /* EjemploText.swift in Sources */,
+				F07AC1032AF2B2C400BD2B93 /* EjemploSubvista.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +352,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +382,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct ejemplos_swuiftuiApp: App {
+    //Ejemplo Estado varias vistas
+    var opciones = Opciones()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
